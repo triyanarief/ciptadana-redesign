@@ -1,8 +1,8 @@
 {
   "frozenRevisions": {
-    "desktop": "458539117089787904",
-    "tablet": "458538250823421952",
-    "mobile": "458538305324220416",
+    "desktop": "458582640900050944",
+    "tablet": "458582651830423552",
+    "mobile": "458582663608037376",
     "DS": "458569379198701568"
   },
   "assets": [
@@ -37,8 +37,8 @@
       "sha256": "99f678245420f967f611e0e5cee7f9b6e788f8ea5c39193e015458b39b257089"
     },
     "docs/site.js": {
-      "bytes": 274044,
-      "sha256": "1674f7f967ba20ad28e280da6571a894be2fa9ace227a4799f223e88fa663fb7"
+      "bytes": 274122,
+      "sha256": "76754ce50cbec772cf68677ac37babf8c8c3de94020eb648da6621cee4640b40"
     },
     "docs/base.css": {
       "bytes": 290,
@@ -59,5 +59,6 @@
   },
   "prototype": "Ciptadana MAGIKA review draft",
   "routeBodies": 31,
-  "enquiry": "Local prototype only"
+  "enquiry": "Local prototype only",
+  "enquiryReset": "Review Edit preserves draft. Return after local confirmation clears fields, consent and resets topic to General enquiry."
 }
