@@ -1,0 +1,63 @@
+{
+  "frozenRevisions": {
+    "desktop": "458539117089787904",
+    "tablet": "458538250823421952",
+    "mobile": "458538305324220416",
+    "DS": "458569379198701568"
+  },
+  "assets": [
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458505938098331649/b2cc119558aa5f3e0d4b322a0f71530ed64504be37bb6a3faeb3a72e282a3a9f.png",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458505938098331649/df93dff8fc3481ee4f20131318a2f950a739d581f89ba097856001cb74a0a7e2.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/00fba7d44d229c56ea0bc3b9d3220a073df812252b2dbce2f1d1816107ce222c.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/10c1aa48cbb7eaa299b98f07c7daccf2379a96966f6a89e204dc9ca4b96233dd.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/1ac7568f17ed603be8f182a1dd9a19c07e4336718cf37f746e4b7b25359f1599.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/7c8022ebe71e050cf2791e5c08de936b392f38f044b2c1f220168215afaf6f15.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/b2fa3b6dda1679adb166cd96225b20ad407e5660cc3a8367beeeacd6ba3bc001.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/bbb799e792d5445ebd000f47124a9c0343b1c710bdff09267cb7a7cdec71a6a5.jpeg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/d2b3c252b227c69ba95f92d98aa4b3f0464af01e02d2e7bef514857c04678d55.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458507564880121856/e954f50854bd4dba718916daeae04944478963dfcb2d3cc3963781b5ed1d2f9b.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/08f12a7b7cd2e3401a0b0988d45a5b1e710a6521258c20cfdc4ac08b36ce8eb6.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/62d0f429d573d389d2eebdca333df07ab0e9bdfabb73157beda1d5e3f2b3bec1.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/822314cf40b4f43624662acf0ed82c7be27e874527450c506de02edbddf75daa.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/9bbfb508156e3ed22c1f04e0cf1d947b280baeb321a314e8132205dd92aa5893.jpg",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/cbf8665379429ba23f2768fb19b5bf06f2e8033cd4e83060305733f549dd6379.png",
+    "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458536697802678272/ff0736e530adcf0477a8bf727229ea438685b21e40411f34e93f0e7de47947ca.jpg"
+  ],
+  "buildFiles": {
+    "docs/index.html": {
+      "bytes": 403,
+      "sha256": "e09f5fbb18bf369a01dcf2ca031f90e2ac0816b795a1c23333c0938b0ac16d04"
+    },
+    "docs/.nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/site.css": {
+      "bytes": 21647,
+      "sha256": "99f678245420f967f611e0e5cee7f9b6e788f8ea5c39193e015458b39b257089"
+    },
+    "docs/site.js": {
+      "bytes": 274044,
+      "sha256": "1674f7f967ba20ad28e280da6571a894be2fa9ace227a4799f223e88fa663fb7"
+    },
+    "docs/base.css": {
+      "bytes": 290,
+      "sha256": "4e597544c24eaeb5b65e8001acfebe9c04a6e5526c2ff6aad4d4ed6e7a771aea"
+    },
+    "docs/design-system/review.css": {
+      "bytes": 5642,
+      "sha256": "4242a573819a3e3f0fc739349bed14073b3ccce94b0ee6cc7ba086fd65a301ac"
+    },
+    "docs/design-system/review.js": {
+      "bytes": 240415,
+      "sha256": "cd38ce302d1a87f812f8f9666292a35da1f724fc2200ab5a9466051564c68501"
+    },
+    "docs/design-system/index.html": {
+      "bytes": 412,
+      "sha256": "7d17ef86b39abe6c23d7f994c2a74352450f5650145844814e9f7c4083d2b69d"
+    }
+  },
+  "prototype": "Ciptadana MAGIKA review draft",
+  "routeBodies": 31,
+  "enquiry": "Local prototype only"
+}
