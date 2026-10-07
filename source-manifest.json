@@ -1,9 +1,9 @@
 {
   "frozenRevisions": {
-    "desktop": "458582640900050944",
-    "tablet": "458582651830423552",
-    "mobile": "458582663608037376",
-    "DS": "458569379198701568"
+    "desktop": "458633902060351488",
+    "tablet": "458633947740536832",
+    "mobile": "458634497416646656",
+    "DS": "458634508665769984"
   },
   "assets": [
     "https://storage.googleapis.com/storage.magicpath.ai/component-assets/458505938098331648/458505938098331649/b2cc119558aa5f3e0d4b322a0f71530ed64504be37bb6a3faeb3a72e282a3a9f.png",
@@ -60,5 +60,11 @@
   "prototype": "Ciptadana MAGIKA review draft",
   "routeBodies": 31,
   "enquiry": "Local prototype only",
-  "enquiryReset": "Review Edit preserves draft. Return after local confirmation clears fields, consent and resets topic to General enquiry."
+  "enquiryReset": "Review Edit preserves draft. Return after local confirmation clears fields, consent and resets topic to General enquiry.",
+  "typography": {
+    "heading": "Source Serif 4 Regular/Italic",
+    "body": "Inter",
+    "approval": "User explicitly approved across MagicPath, Figma and website on 2026-10-07",
+    "visualReflowQA": "Pending fresh 1440/768/390 checks"
+  }
 }

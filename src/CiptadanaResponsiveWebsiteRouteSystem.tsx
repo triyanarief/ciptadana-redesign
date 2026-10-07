@@ -313,7 +313,17 @@ export function CiptadanaSite({
   }))];
   const b = business.find(x => x.id === page);
   const enquiry = page === 'talk-to-team' || page === 'contact';
-  const renderForm = () => stage === 'review' ? <section className="cp-form-panel"><div className="cp-eyebrow">REVIEW YOUR ENQUIRY</div><h2>Check the details.</h2><dl>{[['Name', form.name], ['Email', form.email], ['Company', form.company || '—'], ['Topic', topic], ['Message', form.message]].map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="cp-actions"><button className="cp-button secondary" onClick={() => setStage('edit')}>Edit details</button><button className="cp-button" onClick={() => setStage('success')}>Confirm enquiry →</button></div><p className="cp-small">Design preview: no enquiry is sent from this prototype.</p></section> : stage === 'success' ? <section className="cp-form-panel" role="status"><div className="cp-eyebrow">PREVIEW COMPLETE</div><h2>Your enquiry is ready.</h2><p>This design preview has not sent your details. On the live website, this screen would confirm successful delivery to the selected team.</p><button className="cp-button" onClick={() => { setForm({ name: '', email: '', company: '', message: '', consent: false }); setTopic('General enquiry'); setStage('edit'); }}>Return to enquiry</button></section> : <form className="cp-form-panel" onSubmit={e => {
+  const renderForm = () => stage === 'review' ? <section className="cp-form-panel"><div className="cp-eyebrow">REVIEW YOUR ENQUIRY</div><h2>Check the details.</h2><dl>{[['Name', form.name], ['Email', form.email], ['Company', form.company || '—'], ['Topic', topic], ['Message', form.message]].map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl><div className="cp-actions"><button className="cp-button secondary" onClick={() => setStage('edit')}>Edit details</button><button className="cp-button" onClick={() => setStage('success')}>Confirm enquiry →</button></div><p className="cp-small">Design preview: no enquiry is sent from this prototype.</p></section> : stage === 'success' ? <section className="cp-form-panel" role="status"><div className="cp-eyebrow">PREVIEW COMPLETE</div><h2>Your enquiry is ready.</h2><p>This design preview has not sent your details. On the live website, this screen would confirm successful delivery to the selected team.</p><button className="cp-button" onClick={() => {
+      setForm({
+        name: '',
+        email: '',
+        company: '',
+        message: '',
+        consent: false
+      });
+      setTopic('General enquiry');
+      setStage('edit');
+    }}>Return to enquiry</button></section> : <form className="cp-form-panel" onSubmit={e => {
     e.preventDefault();
     setStage('review');
   }}><h2>Tell us how we can help.</h2><div className="cp-field-grid"><label>Full name<input required autoComplete="name" value={form.name} onChange={e => setForm({
