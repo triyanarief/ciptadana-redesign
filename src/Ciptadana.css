@@ -24,3 +24,10 @@
 
 .cp-pathway-image{margin-bottom:28px!important}.cp-pathway-image img{width:100%;aspect-ratio:2.6;object-fit:cover;display:block}.cp-for-whom{padding:36px 0 48px;border-top:1px solid var(--line);margin-bottom:36px}.cp-for-whom h2{font-size:36px;max-width:780px}.cp-for-whom p{margin-top:22px;max-width:740px}.cp-about-card-image{width:100%;height:210px;object-fit:cover;margin-bottom:25px}.cp-community-stories{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:40px}.cp-community-stories img{width:100%;aspect-ratio:1.5;object-fit:cover;margin-bottom:24px}.cp-community-stories .cp-text-link{margin-top:20px}.cp-sitemap-audience h3{font-size:16px;margin:22px 0 14px}.cp-home-trust-copy .cp-trust-links a{font-size:14px}
 @media(max-width:700px){.cp-community-stories{grid-template-columns:1fr;gap:40px}.cp-for-whom h2{font-size:30px}.cp-about-card-image{height:190px}}
+
+/* Observed quality corrections: shared optional label row, stable closing CTA and login spacing. */
+.cp-site .cp-field-label{display:inline;line-height:1.6}
+.cp-closing .cp-button{flex-shrink:0;white-space:nowrap}
+.cp-closing>.cp-wrap>div{min-width:0}
+.cp-login-intro h2{margin-bottom:18px}
+.cp-login-intro p{margin-bottom:20px}
