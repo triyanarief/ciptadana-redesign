@@ -38,3 +38,12 @@
   .cp-site h1{font-size:clamp(43px,6vw,54px)}
   .cp-hero h1{font-size:clamp(48px,7vw,58px)}
 }
+
+/* Keep the leadership portrait intact when About cards stack on tablet/mobile. */
+.cp-leadership-preview{object-position:center top}
+.cp-close,.cp-mobile-toggle{min-width:44px;min-height:44px}
+@media(max-width:900px){
+  .cp-about-card-image.cp-leadership-preview{height:auto;aspect-ratio:3/2}
+  .cp-mobile-sub{gap:4px}
+  .cp-mobile-sub>a{display:flex;align-items:center;min-width:44px;min-height:44px;padding-block:12px}
+}
