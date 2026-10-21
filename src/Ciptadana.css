@@ -38,3 +38,29 @@
   .cp-site h1{font-size:clamp(43px,6vw,54px)}
   .cp-hero h1{font-size:clamp(48px,7vw,58px)}
 }
+
+/* Keep the leadership portrait intact when About cards stack on tablet/mobile. */
+.cp-leadership-preview{object-position:center top}
+.cp-close,.cp-mobile-toggle{min-width:44px;min-height:44px}
+@media(max-width:900px){
+  .cp-about-card-image.cp-leadership-preview{height:auto;aspect-ratio:3/2}
+  .cp-mobile-sub{gap:4px}
+  .cp-mobile-sub>a{display:flex;align-items:center;min-width:44px;min-height:44px;padding-block:12px}
+}
+
+/* Reserve room for the header, copy and hero footer on shorter laptops.
+   Keep the whole photograph visible; short/zoomed windows can still scroll. */
+@media(min-width:901px){
+  .cp-hero{padding:24px 0 20px}
+  .cp-hero .cp-eyebrow{margin-bottom:0}
+  .cp-hero-grid{margin:16px 0}
+  .cp-hero-copy p{margin-bottom:20px}
+  .cp-hero .cp-light-link{margin-top:16px}
+  .cp-hero-media{margin-bottom:16px!important}
+  .cp-hero-media img{
+    height:clamp(120px,calc(100svh - 560px),400px);
+    aspect-ratio:auto;
+    object-fit:contain;
+  }
+  .cp-hero-foot{padding-top:12px}
+}
